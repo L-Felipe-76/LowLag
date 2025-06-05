@@ -1,0 +1,84 @@
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: rgba(105, 2, 28, 0.863);
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar ul li {
+    display: inline-block;
+    background-color: rgba(105, 2, 28, 0.233);
+    border-radius: 20%;
+}
+.navbar ul li a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+.main{
+    background-color: rgba(218, 214, 214, 0.74);
+    border-width: 0.1px;
+    border-radius: 5%;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main div h3{
+    display: inline;
+    padding: 5px;
+}
+.main div a{
+    display: inline;
+    padding: 10px;
+}
+.main div a button{
+    background-color: rgba(46, 6, 223, 0.938);
+    color: white;
+    border-radius: 20%;
+}
+.main div img{
+    display: block;
+    padding: 10px;
+    padding-left: 650px;
+    height: 450px;
+    width: 600px;
+}
+.footer{
+    background-color: rgba(105, 2, 28, 0.863);
+}
+.footer h2{
+    color: white;
+    margin: 20px;
+    padding-top: 7px;
+}
+.footer ul {
+    list-style: none;
+    margin-left: 13.85%;
+}
+.footer ul li {
+    display: inline-block;
+    background-color: rgba(105, 2, 28, 0.233);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10%;
+    
+}
